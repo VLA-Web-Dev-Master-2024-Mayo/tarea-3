@@ -15,12 +15,12 @@
                 </a>
             </div>
         <a href="/menu" class="flex items-center">
-            <div class="flex gap-1 border-2 border-white rounded-2xl text-white p-2 hover:text-black hover:bg-white transition-all duration-300">
+            <button class="flex gap-1 border-2 border-white rounded-2xl text-white p-2 hover:text-black hover:bg-white transition-all duration-300">
                 <h1 class="flex">Menú</h1>
                 <span class="material-symbols-outlined text-2xl">
                     fastfood
                 </span>
-            </div>
+            </button>
         </a>
     </div>
 </nav>

@@ -27,13 +27,16 @@
             <!-- Primera columna -->
 
         <div class="flex-row flex items-center justify-center gap-48">
+            
             <div class="border-2 border-yellow-200 bg-white rounded-md p-16 flex flex-col place-items-center">
                     <img alt="Menú Hamburgesas" 
                         src={MenuHamburguesas}
                         class="flex justify-center"
                     />
                     <br>
-                <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Hamburguesas</button>
+                    <a href="/hamburguesas">
+                        <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Hamburguesas</button>
+                    </a>
             </div>
 
            <div class="border-2 border-yellow-200 bg-white rounded-md p-16 flex flex-col place-items-center">
@@ -42,7 +45,9 @@
                         class="flex justify-center"
                     />
                     <br>
-                <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Bebidas</button>
+                    <a href="/bebidas">
+                        <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Bebidas</button>
+                    </a>
             </div>
 
             <div class="border-2 border-yellow-200 bg-white rounded-md p-16 flex flex-col place-items-center">
@@ -51,7 +56,9 @@
                         class="flex justify-center"
                     />
                     <br>
-                <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Acompañamientos</button>
+                    <a href="/acompañamientos">
+                        <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Acompañamientos</button>
+                    </a>
             </div>
         </div>
 
@@ -68,7 +75,9 @@
                         class="flex justify-center"
                     />
                     <br>
-                <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Cajita Feliz</button>
+                    <a href="/cajita">
+                        <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Cajita Feliz</button>
+                    </a>
             </div>
 
              <div class="border-2 border-yellow-200 bg-white rounded-md p-16 mr-6 flex flex-col place-items-center">
@@ -77,7 +86,9 @@
                         class="flex justify-center"
                     />
                     <br>
-                <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Helados</button>
+                    <a href="/helados">
+                        <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Helados</button>
+                    </a>
             </div>
 
              <div class="border-2 border-yellow-200 bg-white rounded-md p-16 flex flex-col place-items-center">
@@ -86,7 +97,9 @@
                         class="flex justify-center"
                     />
                     <br>
-                <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Desayunos</button>
+                    <a href="/desayunos">
+                        <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Desayunos</button>
+                    </a>
             </div>
         </div>
 
@@ -103,7 +116,9 @@
                         class="flex justify-center"
                     />
                     <br>
-                <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Cafés</button>
+                    <a href="/cafes">
+                        <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Cafés</button>
+                    </a>
             </div>
 
            <div class="border-2 border-yellow-200 bg-white rounded-md p-16 flex flex-col place-items-center">
@@ -112,7 +127,9 @@
                         class="flex justify-center"
                     />
                     <br>
-                <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Family Box</button>
+                    <a href="/family">
+                        <button class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white hover:text-black hover:bg-white">Family Box</button>
+                    </a>
             </div>
 
         </div>
