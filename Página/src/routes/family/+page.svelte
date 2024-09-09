@@ -23,14 +23,14 @@
         <div class="flex-row flex items-center justify-center gap-48">
             
             <div class="border-2 border-yellow-200 bg-white rounded-md p-14 mr-5 flex flex-col place-items-center">
-                    <img alt="Hamburguesa" 
+                    <img alt="Family Box" 
                         src={FamilyBox}
                         class="flex justify-center"
                         height="120"
                         width="120"
                     />
                     <br>
-               <div class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white">Hamburgesa</div>
+               <div class="p-2 border-2 border-yellow-300 bg-yellow-300 rounded-full text-white">Family Box</div>
           </div>
         </div>
 
