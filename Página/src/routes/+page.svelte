@@ -6,7 +6,7 @@ import Footer from "$lib/components/Footer.svelte";
 
 </script>
 
-<div class="flex flex-col min-h-screen max-w-full justify-center">
+<div class="flex flex-col min-h-screen max-w-full justify-center scroll-smooth">
     <Navbar />
 
     <main class="flex-grow">

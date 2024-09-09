@@ -18,7 +18,7 @@
    
     <Navbar />
     
-    <main class="flex-grow p-12">
+    <main class="flex-grow p-12 scroll-smooth">
 
             <h1 class="flex justify-center text-3xl font-medium pr-7">Menú</h1>
             <br>
@@ -28,7 +28,7 @@
 
         <div class="flex-row flex items-center justify-center gap-48">
             
-            <div class="border-2 border-yellow-200 bg-white rounded-md p-16 flex flex-col place-items-center">
+            <div class="border-2 border-yellow-200 bg-white rounded-md p-16 px-20 flex flex-col place-items-center">
                     <img alt="Menú Hamburgesas" 
                         src={MenuHamburguesas}
                         class="flex justify-center"
@@ -39,7 +39,7 @@
                     </a>
             </div>
 
-           <div class="border-2 border-yellow-200 bg-white rounded-md p-16 flex flex-col place-items-center">
+           <div class="border-2 border-yellow-200 bg-white rounded-md p-16 mr-9 flex flex-col place-items-center">
                     <img alt="Menú Bebidas" 
                         src={MenuBebidas}
                         class="flex justify-center"
