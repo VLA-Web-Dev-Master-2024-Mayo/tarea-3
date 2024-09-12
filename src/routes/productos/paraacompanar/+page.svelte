@@ -1,7 +1,9 @@
 <script lang="ts">
-	type Menu = { title: string; page_link: string; img_src: string };
+	import Card from "$lib/components/Card.svelte";
+	import Menu_items, { type Menu_item as MMenu_item } from "$lib/components/Menu_item.svelte";
+	let menu_items: MMenu_item[] = $state([]);
 
-	const menu: Menu[] = [
+	menu_items = [
 		{
 			title: "McPapas Pequeñas",
 			page_link: "",
@@ -30,14 +32,5 @@
 	];
 </script>
 
-<nav>
-	<ul class="grid grid-cols-3 grid-rows-2 justify-center">
-		{#each menu as item}
-			<li>
-				<a href={item.page_link} class="flex flex-col items-center"
-					><img src={item.img_src} alt="" />{item.title}</a
-				>
-			</li>
-		{/each}
-	</ul>
-</nav>
+<Card title="Para Acompanar" />
+<Menu_items {menu_items} />
