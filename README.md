@@ -1,3 +1,38 @@
-Usted ha sido contratado por McDonalds para crear un nuevo menú para clientes. Los clientes se han quejado que el diseño actual es muy complicado con anuncios y consume muchos datos en sus planes de servicios de teléfono. _SOLO INFORMATIVO_.
+# create-svelte
 
-Crea un menú con todas las comidas ofrecidas por la empreza categorizada por tipo de comida. Asegúrese de utilizar múltiples páginas y no hacer todo en un solo sitio. Debe de utilizar Svelte. Les recomiendo que utilicen componentes para reducir la cantidad de repetición.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+
+## Creating a project
+
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npm create svelte@latest
+
+# create a new project in my-app
+npm create svelte@latest my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
